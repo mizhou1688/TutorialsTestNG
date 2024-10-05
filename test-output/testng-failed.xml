@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DemoTestNG.DataProviderTest">
+      <class name="DemoTestNG.MoverHoverTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="testInputFields" invocation-numbers="1"/>
-          <include name="setUp"/>
+          <include name="testExplicitWait"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- DemoTestNG.DataProviderTest -->
+      </class> <!-- DemoTestNG.MoverHoverTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

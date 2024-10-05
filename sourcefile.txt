@@ -1,1 +1,3 @@
 https://github.com/RexJonesII/TutorialsTestNG/blob/master/src/test/java/DemoTestNG/ParallelTesting2.java
+
+https://www.lambdatest.com/capabilities-generator/

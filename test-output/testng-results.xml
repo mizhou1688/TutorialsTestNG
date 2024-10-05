@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T20:08:37 PDT" name="Default suite" finished-at="2024-10-01T20:08:43 PDT" duration-ms="6334">
+  <suite started-at="2024-10-05T16:06:54 PDT" name="Default suite" finished-at="2024-10-05T16:06:58 PDT" duration-ms="4291">
     <groups>
     </groups>
-    <test started-at="2024-10-01T20:08:37 PDT" name="Default test" finished-at="2024-10-01T20:08:43 PDT" duration-ms="6334">
-      <class name="DemoTestNG.GeoLocation_Selenium4Feature">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:DemoTestNG.GeoLocation_Selenium4Feature@3d3ba765]" started-at="2024-10-01T20:08:37 PDT" name="setUp" finished-at="2024-10-01T20:08:39 PDT" duration-ms="2539" status="PASS">
+    <test started-at="2024-10-05T16:06:54 PDT" name="Default test" finished-at="2024-10-05T16:06:58 PDT" duration-ms="4291">
+      <class name="DemoTestNG.MoverHoverTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:DemoTestNG.MoverHoverTest@5c18016b]" started-at="2024-10-05T16:06:54 PDT" name="setUP" finished-at="2024-10-05T16:06:57 PDT" duration-ms="2872" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mockGeoLocation_DevTools()[pri:0, instance:DemoTestNG.GeoLocation_Selenium4Feature@3d3ba765]" started-at="2024-10-01T20:08:39 PDT" name="mockGeoLocation_DevTools" finished-at="2024-10-01T20:08:43 PDT" duration-ms="3720" status="PASS">
+        </test-method> <!-- setUP -->
+        <test-method signature="testExplicitWait()[pri:0, instance:DemoTestNG.MoverHoverTest@5c18016b]" started-at="2024-10-05T16:06:57 PDT" name="testExplicitWait" finished-at="2024-10-05T16:06:58 PDT" duration-ms="1374" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mockGeoLocation_DevTools -->
-      </class> <!-- DemoTestNG.GeoLocation_Selenium4Feature -->
+        </test-method> <!-- testExplicitWait -->
+      </class> <!-- DemoTestNG.MoverHoverTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

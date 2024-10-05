@@ -50,12 +50,12 @@ public class DynamicWaits {
 		driver.findElement(By.id("downloadButton")).click();
 	
 		//waiting 30 seconds for an element to be present on the page, checking
-		// for its presence once every 100 miliseconds.
+		// for its presence once every 100 milliseconds.
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 				.withTimeout(Duration.ofSeconds(30L))
 				.pollingEvery(Duration.ofMillis(100))
 				.ignoring(NoSuchElementException.class);
-		
+		/*
 		WebElement element = wait.until(new Function<WebDriver, WebElement>() {
 			public WebElement apply(WebDriver driver) {
 				WebElement progress = driver.findElement(By.xpath("//div[@id='dialog']//div[@class='progress-label']"));
@@ -71,7 +71,8 @@ public class DynamicWaits {
 				
 			}
 		});
-		/* using Lambda Expression
+		*/
+		// using Lambda Expression
 		wait.until(driver->{
 			WebElement progress = driver.findElement(By.xpath("//div[@id='dialog']//div[@class='progress-label']"));
 			String progressBarText = progress.getText();
@@ -84,7 +85,7 @@ public class DynamicWaits {
 				return null;
 			}
 		});
-		*/
+		
 	}
 	
 	@Test
